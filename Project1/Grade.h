@@ -1,10 +1,12 @@
 #pragma once
+#include <string>
+
 class Grade
 {
 private:
-	char finalGrade();
+	std::string finalGrade;
 public:
-	string getGrade();
+	std::string getGrade();
 	Grade();
 	~Grade();
 };

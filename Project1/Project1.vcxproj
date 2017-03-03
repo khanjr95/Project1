@@ -111,16 +111,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Grade.cpp" />
+    <ClCompile Include="Honors.cpp" />
     <ClCompile Include="mian.cpp" />
     <ClCompile Include="Person.cpp" />
-    <ClCompile Include="professor.cpp" />
-    <ClCompile Include="student.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Grade.h" />
+    <ClInclude Include="Honors.h" />
     <ClInclude Include="Person.h" />
-    <ClInclude Include="professor.h" />
-    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

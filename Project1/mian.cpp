@@ -17,8 +17,9 @@ int main()
 	person1.setName(name);
 	person1.setid(id);
 	person1.setOcc(occ);
-	
 
+	
+	
 	int grade = 0;
 	Grade gradeBook1;
 
@@ -28,6 +29,7 @@ int main()
 	gradeBook1.setfinal(grade);
 	cout << "Your final grade out of 100 is:" << gradeBook1.getFinalGrade() << endl;
 	cout << "And your Letter Grade is:" << gradeBook1.getLetter() << endl;
+	
 	
 
 	cin.clear();

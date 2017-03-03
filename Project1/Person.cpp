@@ -8,12 +8,13 @@ using namespace std;
 Person::Person()
 {
 	int occ = 0;
+	string name = " ";
 }
 
-void Person::setName(std::string _name)
+void Person::setName(std::string name)
 {
 	cout << "What is your name?:";
-	cin >> _name;
+	cin >> name;
 }
 
 void Person::setid(int _id)
@@ -29,12 +30,15 @@ void Person::setOcc(int occ)
 	cin >> occ;
 	if (occ == 1)
 	{
-		cout << "You are a Teacher and dont need a Grade.";
-		
+		cout << "You are a Teacher and dont need a Grade." << endl;
+		cin.clear();
+		cin.ignore();
+		cin.get();
+		exit(0);
 	}
 	else if(occ==2)
 	{
-		cout << "You are a student and need a grade.";
+		cout << "You are a student and need a grade." << endl;
 		
 	}
 }
@@ -42,6 +46,11 @@ void Person::setOcc(int occ)
 int Person::getOcc()
 {
 	return occ;
+}
+
+string Person::getName()
+{
+	return name;
 }
 
 

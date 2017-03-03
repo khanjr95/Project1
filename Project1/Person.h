@@ -5,13 +5,15 @@ class Person
 {
 private:
 	int occ;
+	std::string name;
 public:
 	Person();
-	void setName(std::string _name);
+	void setName(std::string name);
 	void setid(int id);
 	void setOcc(int occ);
 
 	int getOcc();
+	std::string getName();
 
 
 	~Person();

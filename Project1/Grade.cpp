@@ -21,13 +21,13 @@ void Grade::setTestOne(int grade)
 
 void Grade::setTestTwo(int grade)
 {
-	cout << "Enter your score out of 100 for the first test:";
+	cout << "Enter your score out of 100 for the second test:";
 	cin >> secondTest;
 }
 
 void Grade::setMidterm(int grade)
 {
-	cout << "Enter your score out of 100 for the first test:";
+	cout << "Enter your score out of 100 for the Midterm:";
 	cin >> midterm;
 }
 

@@ -1,7 +1,7 @@
 #pragma once
+#include "Honors.h"
 
-
-class Grade
+class Grade: public Honors
 {
 private:
 	int firstTest;

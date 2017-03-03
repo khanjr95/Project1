@@ -1,7 +1,8 @@
 #pragma once
 #include <string>
+#include "Honors.h"
 
-class Person
+class Person :public Honors
 {
 private:
 	int occ;

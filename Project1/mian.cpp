@@ -31,8 +31,12 @@ int main()
 	
 	a = gradeBook1.getLetter();
 	
-	Honors honors1;
-	honors1.setHonors(a);
+	//cout << a << endl;
+	
+	person1.setHonors(a);
+	person1.getHonors(a);
+
+	
 
 
 	cin.clear();

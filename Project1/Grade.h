@@ -25,5 +25,5 @@ public:
 	void setfinal(int grade);
 
 
-		~Grade();
+	~Grade();
 };

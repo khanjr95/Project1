@@ -85,6 +85,7 @@ char Grade::getLetter()
 	{
 		letterGrade = 'F';
 	}
+	return letterGrade;
 }
 
 

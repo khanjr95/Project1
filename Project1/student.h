@@ -1,19 +1,15 @@
 #pragma once
 #include <string>
+#include "Person.h"
 
 
-class student
+class student: public Person
 {
 private:
-	std::string name;
-	int studentId;
 	
-
 
 public:
 	student();
-	std::string getName();
-	int getId();
 
 	~student();
 
